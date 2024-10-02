@@ -12,11 +12,16 @@ headerLeft.className = 'header-left'
 // Create an img element and set its source to 'logo.png'
 const logo = document.createElement('img')
 logo.src = '/logo.png'
-logo.alt = 'Unearthed Logo'
+logo.style.width = '70px'
+logo.style.height = '70px'
+logo.alt = 'Ideally Logo'
 
 // Create an h1 element and set its text content to 'Unearthed'
 const title = document.createElement('h1')
-title.textContent = 'Unearthed'
+title.textContent = 'Ideally'
+title.style.fontSize = '2.4rem'
+title.style.fontWeight = 'bold'
+title.style.fontFamily = 'sans-serif'
 
 // Append the logo and title to the 'header-left' div
 headerLeft.appendChild(logo)

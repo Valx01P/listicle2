@@ -5,6 +5,8 @@ const renderIdeas = async () => {
         const response = await fetch('/ideas')
         const data = await response.json()
 
+        console.log(data)
+
         // Select the main content area
         const mainContent = document.getElementById('main-content')
 
@@ -19,9 +21,15 @@ const renderIdeas = async () => {
                 // Create the top container with the idea image
                 const topContainer = document.createElement('div')
                 topContainer.className = 'top-container'
-                topContainer.style.backgroundImage = `url(${idea.image})`
-                topContainer.style.backgroundSize = 'cover'
-                topContainer.style.backgroundPosition = 'center'
+
+                // Create the image element
+                const imageElement = document.createElement('img')
+                imageElement.src = idea.image
+                imageElement.alt = idea.ideaname
+                imageElement.className = 'idea-image'
+
+                // Append image to top container
+                topContainer.appendChild(imageElement)
 
                 // Create the bottom container with idea details
                 const bottomContainer = document.createElement('div')
@@ -29,15 +37,11 @@ const renderIdeas = async () => {
 
                 // Create the idea name element
                 const ideaName = document.createElement('h3')
-                ideaName.textContent = idea.name
+                ideaName.textContent = idea.ideaname
 
-                // Create the price point element
-                const pricePoint = document.createElement('p')
-                pricePoint.textContent = `Price: ${idea.pricePoint}`
-
-                // Create the audience element
-                const audience = document.createElement('p')
-                audience.textContent = `Audience: ${idea.audience}`
+                // Create the tags element
+                const projectTags = document.createElement('p')
+                projectTags.textContent = `${idea.projecttags}`
 
                 // Create the 'Read More' link
                 const readMore = document.createElement('a')
@@ -47,8 +51,7 @@ const renderIdeas = async () => {
 
                 // Append elements to the bottom container
                 bottomContainer.appendChild(ideaName)
-                bottomContainer.appendChild(pricePoint)
-                bottomContainer.appendChild(audience)
+                bottomContainer.appendChild(projectTags)
                 bottomContainer.appendChild(readMore)
 
                 // Append top and bottom containers to the card
@@ -69,20 +72,18 @@ const renderIdeas = async () => {
     }
 }
 
-// Function to determine if the current page is the main page
+// The rest of your code remains unchanged
 const isMainPage = () => {
     const pathname = window.location.pathname
     return pathname === '/' || pathname === '/index.html'
 }
 
-// Function to determine if the URL is for a specific idea
 const isIdeaPage = () => {
     const pathname = window.location.pathname
     const ideaId = pathname.split('/').pop()
     return !isNaN(ideaId) && pathname.includes('/ideas/')
 }
 
-// Redirect to 404 if the URL is invalid
 const handleInvalidUrl = () => {
     if (!isMainPage() && !isIdeaPage()) {
         window.location.href = '../404.html'
@@ -91,5 +92,4 @@ const handleInvalidUrl = () => {
     }
 }
 
-// Call the function to handle the current URL
 handleInvalidUrl()

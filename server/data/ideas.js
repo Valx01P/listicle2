@@ -4,7 +4,7 @@ const ideaData = [
       ideaName: "Color Scheme Generator",
       ideaDescription: "A website that generates color schemes based on user dialogue.",
       projectTags: "AI, Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "web_ai_dev.webp",
       submittedBy: "ColorEnjoyer",
       submittedOn: "2024-03-15"
     },
@@ -13,7 +13,7 @@ const ideaData = [
       ideaName: "Image to Text Converter Extension",
       ideaDescription: "Web extension to extract text from screenshots.",
       projectTags: "ML, Extension Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "other_dev.webp",
       submittedBy: "CaffeineAddict",
       submittedOn: "2024-03-16"
     },
@@ -22,7 +22,7 @@ const ideaData = [
       ideaName: "AI Finance Assistant",
       ideaDescription: "Analyzes your bank statements and provides financial insights.",
       projectTags: "AI, Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "web_ai_dev.webp",
       submittedBy: "ZenMaster",
       submittedOn: "2024-03-17"
     },
@@ -31,7 +31,7 @@ const ideaData = [
       ideaName: "AI Reminder Alarm Bot",
       ideaDescription: "An app that reminds you of an alarm with speech, responds accordingly and convincingly.",
       projectTags: "AI, App Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "app_dev.webp",
       submittedBy: "InteriorDesignPro",
       submittedOn: "2024-03-18"
     },
@@ -40,7 +40,7 @@ const ideaData = [
       ideaName: "AI Self Driving Toy Car",
       ideaDescription: "Practice robot vision, use sensors to make a toy car that avoids obstacles.",
       projectTags: "AI, Robotics, Computer Vision",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "other_dev.webp",
       submittedBy: "AudioPhile",
       submittedOn: "2024-03-19"
     },
@@ -49,7 +49,7 @@ const ideaData = [
       ideaName: "AI Surveillance System",
       ideaDescription: "A surveillance system that records and optionally alerts any outside human movement.",
       projectTags: "AI, Computer Vision",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "ai_dev.webp",
       submittedBy: "GreenThumb",
       submittedOn: "2024-03-20"
     },
@@ -58,7 +58,7 @@ const ideaData = [
       ideaName: "Stock Price Prediction",
       ideaDescription: "Predict the price of a stock based on historical data.",
       projectTags: "ML, Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "web_ml_dev.webp",
       submittedBy: "ChocoholicDreams",
       submittedOn: "2024-03-21"
     },
@@ -67,7 +67,7 @@ const ideaData = [
       ideaName: "Customer Segmentation Analysis",
       ideaDescription: "Differentiate customers into groups based on data.",
       projectTags: "ML, Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "ml_dev.webp",
       submittedBy: "Wanderluster",
       submittedOn: "2024-03-22"
     },
@@ -76,7 +76,7 @@ const ideaData = [
       ideaName: "Product Recommendation System",
       ideaDescription: "Recommend products to customers based on data.",
       projectTags: "ML, Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "web_ml_dev.webp",
       submittedBy: "FutureTechFan",
       submittedOn: "2024-03-23"
     },
@@ -85,7 +85,7 @@ const ideaData = [
       ideaName: "House Price Prediction",
       ideaDescription: "Predict home prices based on data.",
       projectTags: "ML, Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "ml_dev.webp",
       submittedBy: "GourmetGrazer",
       submittedOn: "2024-03-24"
     },
@@ -94,7 +94,7 @@ const ideaData = [
       ideaName: "Markdown Editor",
       ideaDescription: "A markdown editor with a tutorial for practice.",
       projectTags: "Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "web_dev.webp",
       submittedBy: "TechGadgetLover",
       submittedOn: "2024-03-25"
     },
@@ -103,7 +103,7 @@ const ideaData = [
       ideaName: "VS Code Markdown Reference Extension",
       ideaDescription: "An extension to help us remember how to make markdown files.",
       projectTags: "Extension Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "ext_dev.webp",
       submittedBy: "CaffeineAddict",
       submittedOn: "2024-03-26"
     },
@@ -112,7 +112,7 @@ const ideaData = [
       ideaName: "Theoretical Stock Plays + Stock Simulation",
       ideaDescription: "A website to make theoretical stock plays and run random stock simulations.",
       projectTags: "Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "web_dev.webp",
       submittedBy: "RetroGamer",
       submittedOn: "2024-03-27"
     },
@@ -121,7 +121,7 @@ const ideaData = [
       ideaName: "Python Code Collaboration Platform",
       ideaDescription: "An alternative to Replit only for Python programming and team collaborating.",
       projectTags: "Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "web_dev.webp",
       submittedBy: "InteriorDesignPro",
       submittedOn: "2024-03-28"
     },
@@ -130,7 +130,7 @@ const ideaData = [
       ideaName: "AI Mimic Bot",
       ideaDescription: "A bot dynamically trained on user text data, the mimic bot respond to texts like the user.",
       projectTags: "AI, App Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "app_dev.webp",
       submittedBy: "AudioPhile",
       submittedOn: "2024-03-29"
     },
@@ -139,7 +139,7 @@ const ideaData = [
       ideaName: "Amazon Clone",
       ideaDescription: "A comprehensive Amazon clone website.",
       projectTags: "Web Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "web_dev.webp",
       submittedBy: "InteriorDesignPro",
       submittedOn: "2024-03-29"
     },
@@ -148,7 +148,7 @@ const ideaData = [
       ideaName: "Interactive Data Visualizer",
       ideaDescription: "A desktop extension to interact with data from CSV files and alter it efficiently.",
       projectTags: "Desktop Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "web_dev.webp",
       submittedBy: "SneakerHead",
       submittedOn: "2024-03-29"
     },
@@ -157,7 +157,7 @@ const ideaData = [
       ideaName: "Live Messaging App + Two Way Video Chat",
       ideaDescription: "An app to communicate with others in multiple ways.",
       projectTags: "App Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "app_dev.webp",
       submittedBy: "QuarantineCooker",
       submittedOn: "2024-03-29"
     },
@@ -166,7 +166,7 @@ const ideaData = [
       ideaName: "Black and Gray VS Code Theme Extension",
       ideaDescription: "An extension to challenge those who are above the aid of syntax colors.",
       projectTags: "Extension Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "ext_dev.webp",
       submittedBy: "MusicLover",
       submittedOn: "2024-03-29"
     },
@@ -175,7 +175,7 @@ const ideaData = [
       ideaName: "What Icons? VS Code Extension",
       ideaDescription: "An extension for those above the appeal of file icons.",
       projectTags: "Extension Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "ext_dev.webp",
       submittedBy: "KetoLover",
       submittedOn: "2024-03-29"
     },
@@ -184,7 +184,7 @@ const ideaData = [
       ideaName: "Curse of the Blind VS Code Extension",
       ideaDescription: "An extension for those above colors and visual aids.",
       projectTags: "Extension Development",
-      image: "https://imageplaceholder.net/600x400/eeeeee",
+      image: "ext_dev.webp",
       submittedBy: "UrbanGardener",
       submittedOn: "2024-04-09"  
     }
