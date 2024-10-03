@@ -35,9 +35,24 @@ const renderIdeas = async () => {
                 const bottomContainer = document.createElement('div')
                 bottomContainer.className = 'bottom-container'
 
+                const mainContentContainer = document.createElement('div')
+                mainContentContainer.className = 'main-content-container'
+
                 // Create the idea name element
                 const ideaName = document.createElement('h3')
                 ideaName.textContent = idea.ideaname
+
+                mainContentContainer.appendChild(ideaName)
+
+                // Create the content container
+                const contentContainer = document.createElement('div')
+                contentContainer.className = 'content-container'
+
+                const projectContainer = document.createElement('div')
+                projectContainer.className = 'project-container'
+
+                const readMoreContainer = document.createElement('div')
+                readMoreContainer.className = 'read-more-container'
 
                 // Create the tags element
                 const projectTags = document.createElement('p')
@@ -45,14 +60,19 @@ const renderIdeas = async () => {
 
                 // Create the 'Read More' link
                 const readMore = document.createElement('a')
-                readMore.textContent = 'Read More >'
+                readMore.textContent = 'Read More'
                 readMore.href = `/ideas/${idea.id}`
                 readMore.setAttribute('role', 'button')
 
+                projectContainer.appendChild(projectTags)
+                readMoreContainer.appendChild(readMore)
+
+                contentContainer.appendChild(projectContainer)
+                contentContainer.appendChild(readMoreContainer)
+
                 // Append elements to the bottom container
-                bottomContainer.appendChild(ideaName)
-                bottomContainer.appendChild(projectTags)
-                bottomContainer.appendChild(readMore)
+                mainContentContainer.appendChild(contentContainer)
+                bottomContainer.appendChild(mainContentContainer)
 
                 // Append top and bottom containers to the card
                 card.appendChild(topContainer)

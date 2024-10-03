@@ -28,21 +28,18 @@
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 20px;
-  border: 2px solid navy;
+  border: 2px solid rgb(128, 9, 0);
   background-color: transparent;
-  color: navy;
+  width: min-content;
+  color: rgb(255, 172, 172, 0.904);
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .header-right button:hover {
-  background-color: navy;
-  color: white;
+  color: rgb(247, 176, 176);
 }
-
-
-
 
 
 
@@ -54,7 +51,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Styles for the idea cards */
@@ -63,7 +60,7 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
+  margin: 10px;
   width: 300px;
   transition: transform 0.3s ease;
 }
@@ -102,24 +99,42 @@
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: navy;
+  background-color: rgb(138, 16, 0);
   color: white;
   text-decoration: none;
   border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 .bottom-container a:hover {
-  background-color: darkblue;
+  background-color: rgb(121, 29, 1);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-self: end;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 165px;
 }
 
 .post-container {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
-  padding: 50px;
-  padding-top: 50px;
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 .post-container img {
@@ -164,4 +179,69 @@
   color: #ff0000;
   text-align: center;
   margin-top: 2rem;
+}
+
+#hero {
+  padding-bottom: 4rem;
+}
+
+#hero h1 {
+  font-size: 10rem;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 4rem;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.sub-post-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  background-color: rgb(26, 26, 26);
+}
+
+.idea-details {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 1.2rem;
+}
+
+#submittedBy {
+  font-size: 1.2rem;
+}
+
+#submittedOn {
+  font-size: 1.2rem;
+}
+
+#tags {
+  font-size: 1.1rem;
+}
+
+
+#not_found {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 5rem;
 }

@@ -1,11 +1,11 @@
-import { pool } from "./database.js";
-import './dotenv.js';
-import ideaData from '../data/ideas.js';
+import { pool } from "./database.js"
+import './dotenv.js'
+import ideaData from '../data/ideas.js'
 
 
 
 const createTableQuery = `
-    DROP TABLE IF EXISTS ideas;
+    DROP TABLE IF EXISTS ideas
 
     CREATE TABLE IF NOT EXISTS ideas (
         id SERIAL PRIMARY KEY,
