@@ -22,7 +22,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Nice home buttin
+- [x] Nice home button
 - [x] Better styling and fetch error handling
 
 ## Video Walkthrough
