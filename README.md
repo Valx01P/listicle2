@@ -39,6 +39,20 @@ GIF created with ezgif to convert a microsoft clip champ mp4 into a gif, [GIF To
 
 I had a little trouble thinking of a cool idea for the website, the one I originally made for the first project really sucked and was rushed, I made it about stocks because I at least find it cool, but an idea sharing website for project ideas is a much cooler website which I feel has a lot of room for growth and improvements.
 
+EXAMPLE POSTGRES SQL DATABASE DATA
+
+id	ideaname	ideadescription	projecttags	image	submittedby	submittedon
+1	Color Scheme Generator	A website that generates color schemes based on user dialogue.	AI, Web Development	web_ai_dev.webp	ColorEnjoyer	2024-03-14 20:00:00
+2	Markdown Editor	A markdown editor with a tutorial for practice.	Web Development	web_dev.webp	TechGadgetLover	2024-03-24 20:00:00
+3	VS Code Markdown Reference Extension	An extension to help us remember how to make markdown files.	Extension Development	ext_dev.webp	CaffeineAddict	2024-03-25 20:00:00
+4	Theoretical Stock Plays + Stock Simulation	A website to make theoretical stock plays and run random stock simulations.	Web Development	web_dev.webp	RetroGamer	2024-03-26 20:00:00
+5	AI Reminder Alarm Bot	An app that reminds you of an alarm with speech, responds accordingly and convincingly.	AI, App Development	app_dev.webp	InteriorDesignPro	2024-03-17 20:00:00
+6	Stock Price Prediction	Predict the price of a stock based on historical data.	ML, Web Development	web_ml_dev.webp	ChocoholicDreams	2024-03-20 20:00:00
+7	AI Surveillance System	A surveillance system that records and optionally alerts any outside human movement.	AI, Computer Vision	ai_dev.webp	GreenThumb	2024-03-19 20:00:00
+8	Product Recommendation System	Recommend products to customers based on data.	ML, Web Development	web_ml_dev.webp	FutureTechFan	2024-03-22 20:00:00
+9	House Price Prediction	Predict home prices based on data.	ML, Web Development	ml_dev.webp	GourmetGrazer	2024-03-23 20:00:00
+10	Image to Text Converter Extension	Web extension to extract text from screenshots.	ML, Extension Development	other_dev.webp	CaffeineAddict	2024-03-15 20:00:00
+
 ## License
 
 Copyright 2024 Pablo Valdes
