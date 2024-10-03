@@ -37,7 +37,7 @@ GIF created with ezgif to convert a microsoft clip champ mp4 into a gif, [GIF To
 
 ## Notes
 
-I had a little trouble thinking of a cool idea for the website, the one I originally made for the first project really sucked and was rushed, I made it about stocks because I at least find it cool, but an idea sharing website for porject ideas is a much cooler website which I feel has a lot of room for upgrades and improvements.
+I had a little trouble thinking of a cool idea for the website, the one I originally made for the first project really sucked and was rushed, I made it about stocks because I at least find it cool, but an idea sharing website for project ideas is a much cooler website which I feel has a lot of room for growth and improvements.
 
 ## License
 
